@@ -3,6 +3,7 @@ import style from "./style.module.css";
 import explorationDesign from "../../assets/svg/explorationDesign.svg";
 import { Button } from "../buttons";
 import playBtn from "../../assets/svg/playBtn.svg";
+import pause from "../../assets/svg/pause.svg";
 
 const Exploration = () => {
   return (
@@ -28,22 +29,28 @@ const Exploration = () => {
         <p>asjfnaisfnoasonoasdpoasdnasinopas</p>
       </div>
       <div className={style.playSection}>
-        <div className={style.play}>
+        <div
+          className={style.play}
+          style={{ border: "2px solid #ffffff", borderRadius: "40px" }}
+        >
           <Button
             children={"Play "}
             onClick={() => console.log("Invest in us ")}
-            color="#FFFFF"
+            color="#FFFFFF"
             backgroundColor=" #0CAD8E"
             image={playBtn}
           />
         </div>
-        <div className={style.pause}>
+        <div
+          className={style.pause}
+          style={{ border: "2px solid #ffffff", borderRadius: "40px" }}
+        >
           <Button
             children={"Pause"}
             onClick={() => console.log("Invest in us ")}
-            color="#FFFFF"
-            backgroundColor=" #0CAD8E"
-            image={playBtn}
+            color="#0CAD8E"
+            backgroundColor=" #FFFFFF"
+            image={pause}
           />
         </div>
       </div>

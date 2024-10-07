@@ -11,10 +11,10 @@ const HeroSection = () => {
     <div className={style.sectionWrapper}>
       <div className={style.HeroSection}>
         <div className={style.heroContent}>
-          <h2>
+          <h1>
             Welcome to <br />
             Ada-obi & SOns
-          </h2>
+          </h1>
           <Button
             children={"Invest in us "}
             onClick={() => console.log("Invest in us ")}

@@ -9,9 +9,9 @@ const TradDrum = () => {
   return (
     <div className={style.sectionWrapper}>
       <div className={style.TradDrumText}>
-        <h3>
+        <h2>
           Lorem Ipsum <br /> asifsdijsjbijsfoi
-        </h3>
+        </h2>
         <p>
           "Where vibrant culture thrives! Nestled in Nigeria, our rich heritage{" "}
           resonates through traditional dances, captivating festivals, and warm{" "}

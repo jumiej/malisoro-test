@@ -41,12 +41,26 @@ p {
   line-height: 1.9;
 }
 
+h1,
 h2,
 h3,
 h4,
 p {
+  font-family: "Clash Display", sans-serif;
   color: var(--grey-09);
   margin: 0;
+}
+
+h1,
+h2,
+h4 {
+  font-family: "Clash Display", sans-serif;
+}
+
+h3,
+li,
+p {
+  font-family: "Montserrat", sans-serif;
 }
 
 main {
@@ -95,7 +109,9 @@ button > svg {
 }
 
 @media (max-width: 768px) {
-  h2 {
+  h2,
+  h2,
+  h4 {
     font-size: 32px;
   }
 
