@@ -1,0 +1,44 @@
+.Entertainment {
+  /* border: 2px solid red; */
+  padding: 47px;
+}
+
+.Entertainment img {
+  width: 100%;
+  margin-top: 73px;
+}
+.Entertainment h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 61.12px;
+  max-width: 704px;
+  margin-top: 100px;
+}
+.Entertainment span img {
+  width: 162px;
+  margin-top: -40px;
+  margin-left: -245px;
+  position: absolute;
+  margin-bottom: 73px;
+}
+
+@media (max-width: 768px) {
+  .Entertainment {
+    padding: 20px;
+  }
+
+  .Entertainment img {
+    margin-top: 40px;
+  }
+
+  .Entertainment h2 {
+    font-size: 32px;
+    line-height: 31.06px;
+    margin-top: 30px;
+  }
+  .Entertainment span img {
+    width: 80px;
+    margin-left: -120px;
+    margin-top: -20px;
+  }
+}

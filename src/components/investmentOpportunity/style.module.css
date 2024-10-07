@@ -1,0 +1,134 @@
+.sectionWrapper {
+  background-color: #ebebeb;
+  margin-top: 200px;
+  padding: 198px 100px;
+  position: relative;
+  z-index: 1;
+  padding: 50px 67px;
+}
+
+.sectionWrapper h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 61.12px;
+  color: #000000;
+  margin-bottom: 45px;
+}
+
+.sectionWrapper span {
+  margin-left: -10px;
+  position: absolute;
+}
+
+.sectionWrapper p {
+  width: 876px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000000;
+  line-height: 24.21px;
+  /* border: 2px solid red; */
+}
+.desktop {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+.bgS {
+  /* border: 2px solid red; */
+  margin-left: 385px;
+  margin-top: -70px;
+}
+
+.investCards {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: -400px;
+}
+
+.investCards img {
+  width: 360px;
+  height: 450px;
+}
+
+.investCards img:nth-child(1) {
+  /* border: 2px solid purple; */
+  margin-top: -12px;
+}
+
+.investCards img:nth-child(2) {
+  /* border: 2px solid purple; */
+  margin-top: 92px;
+  margin-left: 115px;
+  width: 485px;
+}
+
+.investCards img:nth-child(3) {
+  margin-left: 170px;
+  width: 485px;
+}
+
+.btns {
+  display: flex;
+  height: 54px;
+  margin-top: -50px;
+}
+
+@media (max-width: 768px) {
+  .sectionWrapper {
+    padding: 50px 20px;
+    margin-top: 100px;
+  }
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .sectionWrapper h2 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .sectionWrapper p {
+    max-width: 100px;
+  }
+
+  .bgS {
+    display: none;
+  }
+  .investCards {
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  .investCards img:nth-child(1) {
+    width: 350px;
+  }
+  .investCards img:nth-child(2),
+  .bgS {
+    margin-left: 0;
+    width: 350px;
+    margin-top: 10px;
+  }
+
+  .investCards img:nth-child(3) {
+    margin-left: 0;
+    width: 230px;
+    margin-top: 10px;
+  }
+
+  .btns {
+    margin-top: 20px;
+  }
+
+  .investCard3 {
+    display: none;
+  }
+}

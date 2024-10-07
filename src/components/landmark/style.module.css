@@ -1,0 +1,97 @@
+.sectionWrapper {
+  padding: 47px;
+}
+
+.adaLandmark {
+  background-color: #ebebeb;
+  border-radius: 29px;
+  padding: 109px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.questionLandmark h2 {
+  max-width: 382px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 61.12px;
+  margin-left: 127px;
+  margin-top: -180px;
+}
+
+.popolarStadium {
+  border-radius: 2px solid red;
+  margin-left: 100px;
+  position: relative;
+  display: flex;
+}
+
+.popolarStadium img:nth-child(1) {
+  z-index: 2;
+}
+.popolarStadium img:nth-child(2) {
+  margin-left: 20px;
+  z-index: 2;
+}
+
+.popolarStadium img:nth-child(3) {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -40px;
+}
+
+.rec {
+  margin-top: -30px;
+}
+
+.popularLandmark img:nth-child(2) {
+  float: right;
+}
+
+@media (max-width: 767px) {
+  .sectionWrapper,
+  .adaLandmark {
+    padding: 20px;
+  }
+  .adaLandmark {
+    display: block;
+    height: 1000px;
+  }
+
+  .questionLandmark h2 {
+    font-size: 32px;
+    line-height: 30.06px;
+  }
+
+  .popolarStadium {
+    margin-top: 100px;
+    display: block;
+    margin-left: 0;
+  }
+
+  .popolarStadium img {
+    width: 100%;
+  }
+
+  .popolarStadium img:nth-child(3) {
+    display: none;
+  }
+
+  .popolarStadium img:nth-child(2) {
+    border-radius: 14px;
+    /* border: 2px solid purple; */
+    height: 300px;
+    width: 500px;
+    /* width: 100%; */
+    margin-top: 20px;
+    margin-left: 20px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+  }
+
+  .rec {
+    display: none;
+  }
+}

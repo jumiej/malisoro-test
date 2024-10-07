@@ -1,0 +1,98 @@
+.sectionWrapper {
+  padding: 47px;
+}
+
+.University {
+  background-color: #ebebeb;
+  padding-left: 105px;
+  border-radius: 23px;
+}
+
+.uniHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.uniHeader h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 61.12px;
+  max-width: 544px;
+}
+
+.complex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 87px;
+}
+
+.entrance {
+  display: flex;
+  max-width: 919px;
+  padding: 33px;
+  background-color: #ffffff;
+  border-radius: 39px;
+}
+
+.smallEntrace {
+  margin-left: 29px;
+  display: block;
+}
+
+.uniTesxt {
+  margin-top: 33px;
+}
+
+.yelo {
+  background-color: #ebebeb;
+}
+
+@media (max-width: 678px) {
+  .sectionWrapper {
+    padding: 20px;
+  }
+
+  .uniHeader img {
+    display: none;
+  }
+
+  .uniHeader h2 {
+    font-size: 32px;
+    line-height: 31.12px;
+  }
+  .University {
+    background-color: none;
+    padding-left: 0;
+    padding: 40px;
+  }
+
+  .complex {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .entrance {
+    display: block;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .smallEntrace {
+    margin-left: 0;
+  }
+
+  .entrance img,
+  .uniTesxt {
+    width: 100%;
+  }
+
+  .entrance img {
+    margin-top: 20px;
+  }
+
+  .halfUni,
+  .yelo {
+    display: none;
+  }
+}

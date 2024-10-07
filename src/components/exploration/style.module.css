@@ -1,0 +1,103 @@
+.sectionWrapper {
+  padding: 47px;
+}
+
+.sectionWrapper h2 {
+  max-width: 681px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 61.12px;
+}
+
+.sectionWrapper span {
+  position: absolute;
+  margin-top: -80px;
+  margin-left: -5px;
+}
+
+.sectionWrapper p {
+  max-width: 951px;
+  margin-top: 44px;
+}
+.playSection {
+  background-image: url(../../assets/svg/explorationBg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 26px;
+  height: 620px;
+  position: relative;
+  padding: 40px;
+  margin-top: 82px;
+}
+
+.play {
+  position: absolute;
+  right: 0;
+  margin-right: 40px;
+}
+
+.pause {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 50px;
+}
+
+.desktop {
+  display: block;
+}
+.mobile {
+  display: none;
+}
+
+@media (max-width: 678px) {
+  .sectionWrapper {
+    width: 88%;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .sectionWrapper h2 {
+    max-width: 481px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 31.12px;
+  }
+
+  .sectionWrapper p {
+    max-width: 131px;
+    margin-top: 0;
+  }
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .playSection {
+    max-width: 90vw;
+    height: 400px;
+    margin-top: 40px;
+    padding: 0;
+    border: 2px solid red;
+  }
+
+  .sectionWrapper span {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -45px;
+  }
+
+  .play {
+    position: absolute;
+    right: 0;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .pause {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,64 @@
+.sectionWrapper {
+  background-color: #101010;
+  padding: 139px 47px;
+  margin-top: 100px;
+}
+
+.sectionWrapper h2 {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 61.12px;
+}
+
+.AdaDen {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.smallDens img {
+  margin-left: 100px;
+}
+
+.straightArrow {
+  margin-top: 197px;
+}
+
+.circleArrow {
+  float: right;
+}
+
+@media (max-width: 678px) {
+  .sectionWrapper {
+    padding: 40px 20px;
+    margin-top: 30px;
+  }
+
+  .sectionWrapper h2 {
+    font-size: 32px;
+    line-height: 31.12px;
+  }
+
+  .AdaDen {
+    display: block;
+    margin-top: 75px;
+  }
+
+  .AdaDen img {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .smallDens img {
+    margin-left: 0;
+  }
+
+  .straightArrow {
+    max-width: 40%;
+  }
+
+  .circleArrow {
+    display: none;
+  }
+}
